@@ -15,7 +15,7 @@ public:
 
 	~mahasiswa() {
 		cout << "Id = " << id << endl;
-		cout << "nama = " << nama < endl;
+		cout << "nama = " << nama << endl;
 		cout << "Nilai = " << nilai << endl;
 	}
 
@@ -23,4 +23,6 @@ public:
 
 int main() {
 	mahasiswa mhs(12, "Asroni", 90.5);
+
+	return 0;
 }
