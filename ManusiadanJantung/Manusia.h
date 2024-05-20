@@ -10,7 +10,7 @@ public:
 
 	manusia(string pName)
 		: name(pName) {
-		cout << name << "hidup\n";
+		cout << name << " hidup\n ";
 	}
 
 	manusia() {
